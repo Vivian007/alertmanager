@@ -57,6 +57,7 @@ func init() {
 	numNotifications.WithLabelValues("pushover")
 	numNotifications.WithLabelValues("slack")
 	numNotifications.WithLabelValues("opsgenie")
+	numNotifications.WithLabelValues("wechat")
 	numNotifications.WithLabelValues("webhook")
 	numNotifications.WithLabelValues("victorops")
 	numFailedNotifications.WithLabelValues("email")
@@ -65,6 +66,7 @@ func init() {
 	numFailedNotifications.WithLabelValues("pushover")
 	numFailedNotifications.WithLabelValues("slack")
 	numFailedNotifications.WithLabelValues("opsgenie")
+	numFailedNotifications.WithLabelValues("wechat")
 	numFailedNotifications.WithLabelValues("webhook")
 	numFailedNotifications.WithLabelValues("victorops")
 
